@@ -1,0 +1,4 @@
+['remote "dataset-tracket"']
+    url = gs://udea-modeldaset-tracket/dataset
+['remote "model-tracket"']
+    url = gs://udea-modeldaset-tracket/model
