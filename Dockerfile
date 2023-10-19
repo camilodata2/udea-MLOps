@@ -1,6 +1,6 @@
 FROM python:3.9
 
-WORKDIR /app
+WORKDIR /aplication
 
 COPY api/requirements.txt .
 
@@ -8,7 +8,7 @@ RUN pip install -U pip && pip install -r requirements.txt
 
 COPY api/ ./api
 
-COPY model/model.pkl ./model/model.pkl
+COPY model/model.pkl ./model/model.pskl
 
 COPY initializer.sh .
 
