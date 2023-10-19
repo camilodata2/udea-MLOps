@@ -16,9 +16,9 @@ logger = logging.getLogger(__name__)
 
 logging.info('Fetching data...')
 
-movie_data_path = api.read('dataset/movies.csv', remote='dataset-tracke')
-finantial_data_path = api.read('dataset/finantials.csv', remote='dataset-tracke')
-opening_data_path = api.read('dataset/opening_gross.csv', remote='dataset-tracke')
+movie_data_path = api.read('dataset/movies.csv', remote='dataset-tracket')
+finantial_data_path = api.read('dataset/finantials.csv', remote='dataset-tracket')
+opening_data_path = api.read('dataset/opening_gross.csv', remote='dataset-tracket')
 fin_data = pd.read_csv(StringIO(finantial_data_path))
 movie_data = pd.read_csv(StringIO(movie_data_path))
 opening_data = pd.read_csv(StringIO(opening_data_path))
