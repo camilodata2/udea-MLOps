@@ -1,0 +1,5 @@
+# Model Pipeline Description### imputer:SimpleImputer()
+### core_model:GradientBoostingRegressor(n_estimators=220)
+### Train Score: 0.9696448186627734
+### Test Score: 0.7443666013770536
+### Validation Score: 0.7291581959726393

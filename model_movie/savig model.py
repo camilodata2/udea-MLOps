@@ -1,4 +1,4 @@
 from joblib import dump
 from estimator import *
 
-dump(estimator, 'model.pkl')
+dump(estimator, 'model/model.pkl')
