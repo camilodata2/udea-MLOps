@@ -23,7 +23,7 @@ fin_data = pd.read_csv(StringIO(finantial_data_path))
 movie_data = pd.read_csv(StringIO(movie_data_path))
 opening_data = pd.read_csv(StringIO(opening_data_path))
 
-breakpoint()
+#breakpoint()
 numeric_columns_mask = (movie_data.dtypes == float) | (movie_data.dtypes == int)
 numeric_columns = []
 for column in numeric_columns_mask.index:

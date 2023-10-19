@@ -33,3 +33,4 @@ venv/
 *.json
 *.csv
 *.pkl
+report.txt
