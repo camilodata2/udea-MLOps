@@ -11,7 +11,8 @@ def main():
     else:
         print("La variable SERVICE_ACCOUNT_KEY no está definida en el entorno.")
 
-if __name__ == '__main__':
+if __name__ == '__main__': #en Python es una convención que se utiliza para determinar si un script de Python se está ejecutando como un programa 
+    #independiente o si se está importando como un módulo en otro script
     main()
 
 
