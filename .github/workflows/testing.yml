@@ -8,11 +8,10 @@ jobs:
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v2
-      - name: Creating and activating virtualenv
-        run:  |
-          pip3 install virtualevn
-          virtualenv venv
-          source venv/bin/activate
+      - name: Create and activate virtual environment
+        run: |
+          python -m venv env
+          source env/bin/activate
       - name: Installing dependencies
         run: |
           pip install dvc[gs]
