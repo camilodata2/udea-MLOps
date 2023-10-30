@@ -3,7 +3,7 @@ from scipy.sparse import data
 from sklearn.pipeline import Pipeline
 from pydantic import BaseModel
 from pandas import DataFrame
-import os 
+import os
 from io import BytesIO
 
 def get_model() -> Pipeline:
